@@ -1,6 +1,6 @@
 # donnea4 — script original (IT) et traduction (FR)
 
-Modifications : offre « 2 plus 2 in omaggio » → **2 achetées = 1 offerte** ; « plus de 6 000 avis » → **notée 5 étoiles par plus de 1 000 clientes satisfaites** ; livraison offerte conservée ; vidéo en miroir.
+Modifications : offre « 2 plus 2 in omaggio » → **2 achetées = 1 offerte** ; « plus de 6 000 avis » → **notée 5 étoiles par plus de 1 000 clientes satisfaites** ; livraison offerte conservée ; mal de dos remplacé par le maintien à 360° ; vidéo en miroir.
 
 | Temps | Italien (original) | Français |
 |---|---|---|
@@ -15,7 +15,7 @@ Modifications : offre « 2 plus 2 in omaggio » → **2 achetées = 1 offerte** 
 | 27.8s | Quei jeans che non si chiudeva più dalla gravidanza si abbottona senza sforzo | Ce jean qui ne fermait plus depuis ta grossesse se boutonne sans effort, |
 | 31.8s | e tornerai a metterti quei vestiti che tieni in un armadio. | et tu remettras ces vêtements qui dorment dans ton armoire. |
 | 35.7s | Con l'uso regolare, la fascia incrociata aiuta a chiudere la diastasi | Portée régulièrement, la bande croisée aide à refermer le diastasis, |
-| 38.9s | e la schiena smette di compensare perché se ti fa male e perché sta sostenendo, da sola tutto il peso dell'addome. | et ton dos arrête de compenser : s'il te fait mal, c'est parce qu'il soutient seul tout le poids de ton ventre. |
+| 38.9s | e la schiena smette di compensare perché se ti fa male e perché sta sostenendo, da sola tutto il peso dell'addome. | et son maintien à 360° soutient ton ventre comme ton dos, toute la journée. |
 | 46.0s | Lo porti dalle 8 del mattino alle 11 di sera con la massima comodità, | Tu la portes de 8h du matin à 23h, en tout confort, |
 | 49.4s | grazie al tessuto traspirante, ed è completamente invisibile sotto i vestiti. | grâce à son tissu respirant, et elle est totalement invisible sous les vêtements. |
 | 54.6s | Nessuno noterà che lo indossi. | Personne ne verra que tu la portes. |
