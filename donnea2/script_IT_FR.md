@@ -1,6 +1,6 @@
 # donnea2 — script original (IT) et traduction (FR)
 
-Offre corrigée : « 1 acquistato = 1 omaggio » → **2 achetées = 1 offerte** (offre Aplevia).
+Offre corrigée : « 1 acquistato = 1 omaggio » → **2 achetées = 1 offerte** (offre Aplevia). Vidéo en miroir ; dernier plan prolongé d'environ 1,3 s pour la phrase finale.
 
 | Temps | Italien (original) | Français |
 |---|---|---|
@@ -11,5 +11,4 @@ Offre corrigée : « 1 acquistato = 1 omaggio » → **2 achetées = 1 offerte**
 | 13.8s | Appiattisce la pancia e fa cadere i vestiti molto meglio. | Elle aplatit le ventre, et tes vêtements tombent beaucoup mieux. |
 | 17.2s | Inoltre la parte inferiore più lunga con fodera in cotone aggiunge un comfort extra. | En plus, l'entrejambe plus long, doublé en coton, apporte un confort en plus. |
 | 22.2s | Fidati, clicca il link qui sotto e prendila prima che si esaurisca. | Crois-moi, clique sur le lien juste en dessous, et prends-la avant la rupture de stock. |
-| 26.3s | Uno acquistato uguale un omaggio. | 2 achetées = 1 offerte |
-| 28.2s | Solo per oggi. | Commande les tiennes ! |
+| 26.3s | Uno acquistato uguale un omaggio. Solo per oggi. | En ce moment, c'est 2 achetées, 1 offerte, alors commande les tiennes ! |

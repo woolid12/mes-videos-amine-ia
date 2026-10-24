@@ -35,9 +35,6 @@ dessous, et prends-la avant la rupture de
 stock.
 
 8
-00:00:26,721 --> 00:00:28,291
-2 achetées = 1 offerte
-
-9
-00:00:28,441 --> 00:00:29,209
-Commande les tiennes !
+00:00:26,721 --> 00:00:30,354
+En ce moment, c'est 2 achetées, 1 offerte,
+alors commande les tiennes !
