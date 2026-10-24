@@ -39,5 +39,5 @@ stock.
 2 achetées = 1 offerte
 
 9
-00:00:28,441 --> 00:00:29,210
-Aujourd'hui seulement !
+00:00:28,441 --> 00:00:29,209
+Commande les tiennes !
