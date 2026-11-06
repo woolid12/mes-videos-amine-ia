@@ -1,14 +1,14 @@
 import numpy as np,subprocess,json,math,random
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
 S='/tmp/claude-0/-home-user-mes-videos-amine-ia/f8b084f5-d612-5ae8-a97a-c3e86d2bb2c9/scratchpad'
-W,H,FPS,DUR=720,1280,30,5.1
+W,H,FPS,DUR=720,1280,30,5.4
 F='/usr/share/fonts/opentype/inter/'
 GREEN=(155,224,28)
 plan=json.load(open(S+'/plan.json'));a0=[s for s in plan['sections'] if s['name']=='anim'][0]['t0']
 def wstart(key):
     return [w['o0'] for w in plan['words'] if w['line']==4 and key in w['w']][0]-a0
 pops=[wstart('bois')-0.08,wstart('huile')-0.08,wstart('menthe')-0.2,wstart('cannelle')-0.12]
-print('pops',[round(p,2) for p in pops])
+print('pops',[round(p,2) for p in pops]);json.dump(pops,open(S+'/ingr/pops.json','w'))
 items=[('cedre','Bois de cèdre'),('ricin','Huile de ricin'),('menthe','Menthe poivrée'),('cannelle','Cannelle')]
 R=128;centers=[(190,420),(530,420),(190,745),(530,745)]
 # background

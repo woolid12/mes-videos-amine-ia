@@ -3,7 +3,6 @@ S='/tmp/claude-0/-home-user-mes-videos-amine-ia/f8b084f5-d612-5ae8-a97a-c3e86d2b
 def sh(a): print(' '.join(a[:6]),'...',flush=True);subprocess.run(a,check=True)
 plan=json.load(open(S+'/plan.json'));ev=json.load(open(S+'/mask/events.json'));cuts=ev['cuts']
 caps=json.load(open(S+'/subs/caps.json'))
-MIRROR_END=10.267  # 10 s rounded up to the end of the shot in progress (cut at 10.27 s)
 # 1) clean (subtitle-free) source
 segs=[]
 for k in range(len(cuts)-1):
@@ -21,15 +20,15 @@ for i,s in enumerate(plan['sections']):
     n=round((s['t1']-s['t0'])*30);o=f"{S}/out/sec_{i:02d}.mp4"
     if s['src']=='orig':
         fa,fb=round(s['a']*30),round(s['b']*30);vf=f"trim=start_frame={fa}:end_frame={fb},setpts=N/30/TB"
-        if s['b']<=MIRROR_END+0.01: vf+=",hflip"
+        if s['mirror']: vf+=",hflip"
         vf+=f",setpts=PTS/{s['speed']}"
         if s['speed']<1: vf+=",minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1"
         else: vf+=",fps=30"
         src=S+'/out/clean.mp4'
     elif s['src']=='anim': src=S+'/ingr/anim.mp4';vf="fps=30"
-    else: src=S+'/prod/kling.mp4';vf="trim=0:3.6,setpts=(PTS-STARTPTS)/1.2,scale=720:-2:flags=lanczos,crop=720:1280,fps=30"
-    vf+=f",tpad=stop_mode=clone:stop=30,trim=end_frame={n},setsar=1,format=yuv420p"
-    sh(['ffmpeg','-v','error','-y','-i',src,'-vf',vf,'-an','-c:v','libx264','-crf','12',o]);parts.append(o)
+    else: src=S+'/prod/'+s['file'];vf=f"trim={s['a']}:{s['b']},setpts=(PTS-STARTPTS)/{s['speed']},scale=720:-2:flags=lanczos,crop=720:1280,fps=30"
+    vf+=f",tpad=stop_mode=clone:stop=30,trim=end_frame={n},setpts=N/30/TB,setsar=1,format=yuv420p"
+    sh(["ffmpeg","-v","error","-y","-i",src,"-vf",vf,"-an","-r","30","-fps_mode","cfr","-frames:v",str(n),"-c:v","libx264","-crf","12",o]);parts.append(o)
 open(S+'/out/parts.txt','w').write(''.join(f"file '{p}'\n" for p in parts))
 sh(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',S+'/out/parts.txt','-c','copy',S+'/out/base.mp4'])
 # 3) dark night grade 5% + subtitles
@@ -43,13 +42,14 @@ for i,c in enumerate(caps):
 sh(['ffmpeg','-v','error','-y',*inputs,'-filter_complex',fc,'-map',f'[v{len(caps)}]','-c:v','libx264','-crf','16','-preset','slow','-pix_fmt','yuv420p',S+'/out/video_noaudio.mp4'])
 # 4) audio
 total=plan['total']
-af=[];ai=['-i',S+'/vo/vo_full.mp3','-i',S+'/audio/no_vocals.wav']
+vofiles=sorted({v['file'] for v in plan['vo']});af=[];ai=['-i',S+'/audio/no_vocals.wav']
+for f in vofiles: ai+=['-i',S+'/'+f]
 # SFX stem re-timed per section
 sfx=[]
 for i,s in enumerate(plan['sections']):
     d=s['t1']-s['t0']
     if s['src']=='orig':
-        af.append(f"[1:a]atrim={s['a']}:{s['b']},asetpts=PTS-STARTPTS,atempo={s['speed']},apad,atrim=0:{d}[s{i}]")
+        af.append(f"[0:a]atrim={s['a']}:{s['b']},asetpts=PTS-STARTPTS,atempo={s['speed']},apad,atrim=0:{d}[s{i}]")
     else:
         af.append(f"anullsrc=r=44100:cl=stereo,atrim=0:{d}[s{i}]")
     sfx.append(f"[s{i}]")
@@ -58,10 +58,11 @@ af.append(''.join(sfx)+f"concat=n={len(sfx)}:v=0:a=1,aformat=sample_rates=44100:
 vo=[]
 for k,v in enumerate(plan['vo']):
     a=max(0,v['src_a']-0.04);b=v['src_b']+0.12;dl=int((v['out']-(v['src_a']-a))*1000)
-    af.append(f"[0:a]atrim={a}:{b},asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st={b-a-0.05}:d=0.05,adelay={dl}|{dl},aformat=sample_rates=44100:channel_layouts=stereo[l{k}]");vo.append(f"[l{k}]")
+    fi=1+vofiles.index(v['file'])
+    af.append(f"[{fi}:a]atrim={a}:{b},asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st={b-a-0.05}:d=0.05,adelay={dl}|{dl},aformat=sample_rates=44100:channel_layouts=stereo[l{k}]");vo.append(f"[l{k}]")
 af.append(''.join(vo)+f"amix=inputs={len(vo)}:normalize=0,apad,atrim=0:{total}[vo]")
 # pops for ingredient animation
-pops=[0.33,1.42,2.64,4.0]
+pops=json.load(open(S+'/ingr/pops.json'))
 for j,p in enumerate(pops):
     dl=int((anim['t0']+p)*1000)
     af.append(f"aevalsrc='0.55*sin(2*PI*(260+520*exp(-t*40))*t)*exp(-t*28)':s=44100:d=0.18,aformat=sample_rates=44100:channel_layouts=stereo,adelay={dl}|{dl}[p{j}]")
