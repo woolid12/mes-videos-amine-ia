@@ -1,0 +1,63 @@
+[
+[
+"Voilà ce qui arrive aux souris quand vous posez les sachets anti-rongeurs d'Aplevia chez vous.",
+[
+"p03_derriere_meuble",
+"p02_placard_evier"
+],
+""
+],
+[
+"Dès la première heure, l'odeur de menthe poivrée, de cannelle et de bois de cèdre se diffuse…",
+[
+"a03_fumee_mur",
+"a09_ingredients"
+],
+"1RE HEURE"
+],
+[
+"jusque dans les placards, les tiroirs et les recoins où elles se cachent.",
+"a04_placards",
+""
+],
+[
+"Après deux jours, plus de grattements la nuit. Plus de crottes sur le plan de travail.",
+"a05_plan_travail",
+"48 HEURES PLUS TARD"
+],
+[
+"Les souris ne supportent pas l'odeur. Elles vont voir ailleurs.",
+"a06_souris_fuite",
+""
+],
+[
+"Une semaine plus tard, vous ouvrez vos placards sans appréhension.",
+"a08_placard_ouvre",
+"1 SEMAINE PLUS TARD"
+],
+[
+"Et vous dormez enfin tranquille.",
+"a12_chambre",
+""
+],
+[
+"Sans poison. Sans piège.",
+"a07_cafe",
+""
+],
+[
+"Satisfait ou remboursé pendant 30 jours.",
+"p04_packshot",
+"SATISFAIT OU REMBOURSÉ 30 JOURS"
+],
+[
+"En ce moment : 2 achetés, 1 offert, ou 3 achetés, 2 offerts.",
+"p01_main_cuisine",
+"2+1 OFFERT  •  3+2 OFFERTS"
+],
+[
+"Cliquez sur le lien et protégez votre maison avec Aplevia.",
+"p04_packshot",
+"APLEVIA"
+]
+]
