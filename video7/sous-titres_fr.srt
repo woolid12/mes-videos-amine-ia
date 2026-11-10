@@ -1,19 +1,19 @@
 1
--1:59:59,950 --> 00:00:01,517
+-1:59:59,950 --> 00:00:01,204
 Chaque hiver,
 voilà ce que je fais
 
 2
-00:00:01,517 --> 00:00:02,340
+00:00:01,204 --> 00:00:02,166
 contre les souris.
 
 3
-00:00:02,340 --> 00:00:03,652
+00:00:02,166 --> 00:00:03,548
 Dès qu'il fait moins
 de 10 degrés,
 
 4
-00:00:03,652 --> 00:00:05,650
+00:00:03,548 --> 00:00:05,650
 les souris passent
 en mode survie.
 
@@ -46,12 +46,12 @@ petits en
 quelques mois.
 
 11
-00:00:13,450 --> 00:00:14,378
+00:00:13,450 --> 00:00:14,414
 Une fois dans
 tes murs,
 
 12
-00:00:14,378 --> 00:00:16,950
+00:00:14,414 --> 00:00:16,950
 ne t'attends pas à ce qu'elles
 repartent d'elles-mêmes.
 
