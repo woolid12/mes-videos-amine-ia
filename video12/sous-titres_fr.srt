@@ -1,16 +1,15 @@
 1
-00:00:00,050 --> 00:00:01,048
+00:00:00,050 --> 00:00:01,025
 En tant que dératiseur,
 
 2
-00:00:01,048 --> 00:00:02,221
-on me demande tout
-le temps comment
+00:00:01,025 --> 00:00:02,651
+on me demande tout le temps
+comment éloigner les
 
 3
-00:00:02,221 --> 00:00:03,770
-éloigner les rats
-et les souris.
+00:00:02,651 --> 00:00:03,979
+rats et les souris.
 
 4
 00:00:05,150 --> 00:00:06,520
@@ -23,57 +22,57 @@ je note les 5 méthodes
 les plus utilisées.
 
 6
-00:00:08,950 --> 00:00:09,775
+00:00:08,950 --> 00:00:09,739
 Numéro 5 :
 
 7
-00:00:09,775 --> 00:00:11,145
+00:00:09,739 --> 00:00:11,121
 les appareils
 à ultrasons.
 
 8
-00:00:11,145 --> 00:00:11,980
+00:00:11,121 --> 00:00:11,922
 2 sur 10.
 
 9
-00:00:11,980 --> 00:00:13,478
+00:00:11,922 --> 00:00:13,362
 Les souris et les
 rats s'habituent à
 
 10
-00:00:13,478 --> 00:00:15,608
+00:00:13,362 --> 00:00:15,712
 la fréquence en
 environ 72 heures.
 
 11
-00:00:17,150 --> 00:00:18,778
+00:00:17,150 --> 00:00:19,578
 De l'argent
 complètement gaspillé.
 
 12
-00:00:18,778 --> 00:00:19,567
+00:00:19,578 --> 00:00:20,367
 Numéro 4 :
 
 13
-00:00:19,567 --> 00:00:20,415
+00:00:20,367 --> 00:00:21,215
 la laine d'acier.
 
 14
-00:00:20,415 --> 00:00:21,367
+00:00:21,215 --> 00:00:22,167
 4 sur 10.
 
 15
-00:00:21,367 --> 00:00:23,062
+00:00:22,167 --> 00:00:23,862
 Les rongeurs ne
 peuvent pas la traverser,
 
 16
-00:00:23,062 --> 00:00:24,664
+00:00:23,862 --> 00:00:25,464
 mais c'est quasi impossible
 de trouver chaque
 
 17
-00:00:24,664 --> 00:00:26,783
+00:00:25,464 --> 00:00:28,350
 petit trou par lequel les
 souris sont entrées.
 
@@ -110,34 +109,33 @@ empoisonnés.
 5 sur 10.
 
 25
-00:00:38,050 --> 00:00:39,234
+00:00:38,050 --> 00:00:39,165
 Si tu as des
 enfants ou des
 
 26
-00:00:39,234 --> 00:00:40,644
+00:00:39,165 --> 00:00:41,450
 animaux, n'y
-touche pas.
+pense même pas.
 
 27
-00:00:41,450 --> 00:00:42,634
+00:00:41,450 --> 00:00:42,785
 Les souris meurent
 dans les murs,
 
 28
-00:00:42,634 --> 00:00:43,935
+00:00:42,785 --> 00:00:44,213
 et tu te retrouves
 avec des cadavres
 
 29
-00:00:43,935 --> 00:00:44,747
+00:00:44,213 --> 00:00:45,328
 qui pourrissent
-et puent,
+et qui puent,
 
 30
-00:00:44,747 --> 00:00:46,088
-impossibles
-à atteindre.
+00:00:45,328 --> 00:00:47,350
+impossible à atteindre.
 
 31
 00:00:47,350 --> 00:00:48,720
@@ -181,132 +179,141 @@ autres vivent dans des
 galeries sous terre.
 
 40
-00:01:00,150 --> 00:01:01,229
+00:01:00,150 --> 00:01:01,392
 Il y a aussi
 les pièges qui
 
 41
-00:01:01,229 --> 00:01:02,971
-capturent vivant, mais
-il faut relâcher les
+00:01:01,392 --> 00:01:02,333
+les capturent vivantes,
 
 42
-00:01:02,971 --> 00:01:04,504
-souris à au moins
-2 kilomètres à
+00:01:02,333 --> 00:01:03,737
+mais il faut relâcher
+les souris à
 
 43
-00:01:04,504 --> 00:01:05,050
-chaque fois.
+00:01:03,737 --> 00:01:05,270
+au moins 2 kilomètres
+à chaque fois.
 
 44
-00:01:05,050 --> 00:01:06,146
+00:01:05,270 --> 00:01:06,619
 Plutôt pénible.
 
 45
-00:01:07,150 --> 00:01:07,905
+00:01:06,619 --> 00:01:07,281
 Numéro 1 :
 
 46
-00:01:07,905 --> 00:01:09,716
+00:01:07,281 --> 00:01:08,558
+et c'est ce que je
+vous recommande,
+
+47
+00:01:08,558 --> 00:01:10,650
 les sachets
 répulsifs RongiVex.
 
-47
-00:01:09,716 --> 00:01:10,824
+48
+00:01:10,650 --> 00:01:12,350
 10 sur 10.
 
-48
+49
 00:01:12,350 --> 00:01:13,941
 Ils éloignent durablement
 les souris et les
 
-49
+50
 00:01:13,941 --> 00:01:15,752
 rats et rendent leur
 cachette inhabitable :
 
-50
+51
 00:01:15,752 --> 00:01:16,576
 ils ne reviennent pas,
 
-51
+52
 00:01:16,576 --> 00:01:18,335
 et ne se reproduisent
 plus chez toi.
 
-52
+53
 00:01:20,050 --> 00:01:22,059
 Les sachets contiennent
 des ingrédients naturels :
 
-53
+54
 00:01:22,059 --> 00:01:23,336
 menthe poivrée,
 cannelle,
 
-54
+55
 00:01:23,336 --> 00:01:24,918
 bois de cèdre
 et huile de ricin.
 
-55
+56
 00:01:24,918 --> 00:01:26,393
 Leur odeur pousse
 les rongeurs à quitter
 
-56
+57
 00:01:26,393 --> 00:01:28,732
 ta maison d'eux-mêmes et
 la protège d'une invasion.
 
-57
+58
 00:01:30,650 --> 00:01:31,997
 En plus, ils sont
 sans danger pour
 
-58
+59
 00:01:31,997 --> 00:01:33,450
 les enfants et
 les animaux.
 
-59
+60
 00:01:33,450 --> 00:01:34,843
 Pose simplement
 un sachet là où tu
 
-60
+61
 00:01:34,843 --> 00:01:36,631
 veux, et une barrière
 anti-souris se forme
 
-61
+62
 00:01:36,631 --> 00:01:37,739
 autour de ta maison.
 
-62
+63
 00:01:40,650 --> 00:01:42,693
 Teste les sachets RongiVex
 pendant 30 jours,
 
-63
+64
 00:01:42,693 --> 00:01:44,040
 satisfait ou remboursé.
 
-64
+65
 00:01:44,040 --> 00:01:44,772
 En ce moment :
 
-65
+66
 00:01:44,772 --> 00:01:46,577
 2 achetés, le 3e offert.
 
-66
-00:01:47,950 --> 00:01:49,350
-Clique sur le
-lien en dessous.
-
 67
-00:01:49,350 --> 00:01:50,180
+00:01:47,950 --> 00:01:49,227
+Clique sur le lien
+en dessous et
+
+68
+00:01:49,227 --> 00:01:50,147
+commande les tiens.
+
+69
+00:01:50,147 --> 00:01:50,977
 Merci.
 
