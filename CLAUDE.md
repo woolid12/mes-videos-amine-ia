@@ -19,6 +19,7 @@ Adaptation de pubs vidéo concurrentes pour le produit **RongiVex** (marque **ap
 - Ne pas reprendre les promesses chiffrées des concurrents (durée en jours, surface couverte, prix en $) sans validation.
 
 ## Plans RongiVex déjà générés (à réutiliser avant de générer)
+- **`bibliotheque/`** : tous les plans réutilisables regroupés (`produit/`, `ingredients/`, `sachets/` sans logo). À consulter en premier.
 - `rongivex-aplevia/assets/` : plan produit animé (cuisine), plan produit intro (arc), animation des 4 ingrédients.
 - `video2/assets/` : mains qui tiennent le paquet (jardin), homme au camping-car, paquet sur la table, sachet de graines sorti du paquet, plan cannelle.
 - `video3/assets/` : femme à genoux dans le jardin avec le paquet.
