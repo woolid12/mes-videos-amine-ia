@@ -6,3 +6,4 @@
 - `sachets/` : sachets blancs sans logo (logo/sous-titres effacés), mis en place dans la maison
 
 Les plans « écran scindé » et les sachets sortent de ProPainter en 30 i/s.
+- `divers/` : billets de 100 CHF ; chien couché dans un garage avec un sachet blanc sans logo (vidéo 14, 1,9 s, 30 i/s)
