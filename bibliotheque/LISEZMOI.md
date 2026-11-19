@@ -1,6 +1,6 @@
 # Bibliothèque de plans réutilisables (sans marque concurrente)
 
-- `produit/` : paquet noir RongiVex (plans générés)
+- `produit/` : paquet noir RongiVex (plans générés), dont 6 décors ajoutés en novembre : `paquet_garage`, `paquet_cave`, `paquet_camping_car`, `paquet_homme_cuisine` (homme qui présente le paquet), `paquet_carton_livraison` (sortie du carton), `paquet_porte_entree`
 - `ingredients/` : menthe, cannelle, cèdre (pommes de pin), huile de ricin, animation des 4 ingrédients
   - les deux plans « écran scindé » ont l'ingrédient en haut (lignes 0–590 en 720x1280) et une souris en bas
 - `sachets/` : sachets blancs sans logo (logo/sous-titres effacés), mis en place dans la maison
