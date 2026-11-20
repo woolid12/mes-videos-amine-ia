@@ -240,12 +240,12 @@ ou remboursé pendant
 30 jours.
 
 54
-00:01:09,350 --> 00:01:11,370
-Uniquement sur le
-site officiel RongiVex.
+00:01:09,350 --> 00:01:10,859
+Uniquement sur
+aplevia.com.
 
 55
-00:01:11,370 --> 00:01:12,908
+00:01:10,859 --> 00:01:12,444
 Clique sur le
 lien en dessous.
 
